@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+<div class = "otsikko">
+    <h1> <b>REFLEKSIPELI</b></h1>
+</div>
+<br>
+<br>
+<br>   
+
+<div class="käynnistäpainike">
+    <button id ="aloita" onclick="pelinalotus()">KÄYNNISTÄ</button>
+
+    <p id = "pisteet"></p>
+</div>
+
+
+
+<div class = "pelipainikkeet">
+    <div class="ekapainike">
+        <button id ="ekaväri1"></button> <!-- normivärinen painike -->
+        <button hidden id ="vaihtoväri1" onclick = "colorreset1()"></button> <!-- väri vaihtuu painike -->
+    </div>
+
+    <div class = "tokapainike">
+        <button id ="ekaväri2"></button> <!-- normivärinen painike -->
+        <button hidden id ="vaihtoväri2" onclick = "colorreset2()"></button> <!-- väri vaihtuu painike -->
+    </div>
+
+    <div class = "kolmaspainike">
+        <button id ="ekaväri3"></button> <!-- normivärinen painike -->
+        <button hidden id ="vaihtoväri3" onclick = "colorreset3()"></button> <!-- väri vaihtuu painike -->
+    </div>
+
+    <div class = "neljäspainike">
+        <button id ="ekaväri4"></button> <!-- normivärinen painike -->
+        <button hidden id ="vaihtoväri4" onclick = "colorreset4()"></button> <!-- väri vaihtuu painike -->
+    </div>
+
+</div>
+
+
+
+
+<script src = "index.js"></script>
+</body>
+</html>
